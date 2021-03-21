@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="icon" href="./assets/img/icon.png" type="image/png">
+
+    <title>Cópia Nubank</title>
+</head>
+
+<body>
+    <div class="bg">
+        <!----------------------------------------CAMPO1-------------------------------------->
+        <section class="roxo">
+            <iframe id="video" src="https://www.youtube.com/embed/uMiMrHQfum8?list=TLGGvW-C4T5a6QAxOTAzMjAyMQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="col" id="form-and-txt">
+                <h1 class="titulo-r1 text-white">Ser Nubank é reinventar a sua vida financeira
+                </h1>
+                <form class="form-group">
+                    <h3 id="form-txt">Peça sua conta e cartão de crédito do Nubank</h3>
+                    <label for="cpf"></label>
+                    <div>
+                    <input type="number" class="form-control" id="cpf" aria-describedby="cpf"
+                        placeholder="Digite seu CPF" onkeyup="validaCpf()">
+                    <div id="txtCpf"></div>
+                </div>
+                    <button type="submit" class="btn text-left w-100 " id="continuar" onclick="continuar()"><strong>Continuar</strong> <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                    
+                </form>
+            </div>
+        </section>
+
+        <!-------------------------------------NAVBAR----------------------------------->
+        <nav class="navbar navbar-light bg-light">
+
+            <img id="img-nav" src="./assets/img/logo-bar.png" width="47" height="35" class="d-inline-block align-top"
+                alt="">
+            <a id="txt-nav" class="navbar-brand" href="#"><strong>Quero ser Nubank </strong><i class="fa fa-arrow-up"
+                    aria-hidden="true"></i></a>
+        </nav>
+
+        <!--..................................CAMPO2........................................-->
+
+        <section class="cinza-branco">
+            <div class="cinza">
+                <h2 class="cell-titulo text-white">Conta digital do Nubank</h2>
+                <img id="img-cell" src="./assets/img/celular.png" alt="">
+                <p class="cell-p text-white"><strong> Rende mais que a poupança,
+                        sem taxa de manutenção nem tarifas escondidas.</strong></p>
+            </div>
+            <div class="branco">
+                <h2 class="card-titulo ">Cartão de Crédito</h2>
+                <img id="img-card" src="./assets/img/cartão.png" alt="">
+                <p class="card-p "><strong> Moderno, simples e gratuito. Tudo para deixar
+                        o controle com você.</strong></p>
+            </div>
+        </section>
+
+        <!-----------------------------------------CAMPO3------------------------------------>
+
+        <section class="branco-ii">
+            <div class="bloco-i row">
+                <div>
+                    <img id="rapaz-com-celular" src="./assets/img/rapaz-com-celular.png" alt="">
+                </div>
+                <div class="txt-i">
+                    <h1 id="titulo-txt-i">Envie e receba pagamentos em segundos</h1>
+                    <h2 id="subtitulo-txt-i">Use o Pix para fazer pagamentos e transferências instantâneas a qualquer
+                        hora. Sem burocracia e sem custo, do jeito Nubank.</h2>
+                    <a id="txt-alerta" href=""><strong>Conhecer o Pix no Nubank </strong><i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------------------------------CAMPO4------------------------------------>
+        <section class="grupo-de-pessoas">
+            <div class="txt-ii">
+                <h1 id="titulo-txt-ii">O fim da complexidade</h1>
+                <h2 id="subtitulo-txt-ii">Para quem sabe que tecnologia e design são melhores do que agências e
+                        papelada.</h2>
+            </div>
+        </section>
+        <!------------------------------------------CAMPO5----------------------------------->
+        <section class="roxo-ii ">
+            <div class="txt-iii row">
+                <h1 id="titulo-txt-iii">Zero anuidade</h1>
+                <h2 id="subtitulo-txt-iii">Burocracia custa caro. Somos eficientes para você não ter que pagar
+                        tarifas.</h2>
+            </div>
+            <img id="img-zero" src="./assets/img/00.png" alt=" 0,00">
+        </section>
+        <!------------------------------------------CAMPO6----------------------------------->
+        <section class="branco-iii">
+            <div class="txt-iiii row">
+                <h1 id="titulo-txt-iiii">E sem burocracia</h1>
+                <h2 id="subtitulo-txt-iiii">Soluções simples, seguras e 100% digitais para você fazer tudo
+                        diretamente pelo celular.</h2>
+            </div>
+            <img id="img-moça" src="./assets/img/moça-com-guarda-sol.png" alt="">
+        </section>
+        <!--------------------------------------CAMPO7--------------------------------------->
+        <section class="branco-iiii">
+            <div class="txt-iiiii row">
+                <h1>O que já saiu na mídia.</h1>
+            </div>
+            <div>
+                <h2 id="subtitulo-txt-iiiii">Nubank recebe novo investimento e passa a valer US$ 10
+                        bilhões</h2>
+                <a id="lm" href="https://www1.folha.uol.com.br/mercado/2019/07/nubank-recebe-novo-investimento-e-passa-a-valer-us-10-bi.shtml"><strong>Leia a matéria</strong> <i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></a>
+                <br>
+                <img id="img-lg" src="./assets/img/folha-de-sp-logo.png" alt="">
+                <h2 id="subtitulo-txt-iiiii">Nubank e fundos Tesouro Selic podem substituir aplicações em
+                        grandes bancos</h2>
+                <a id="lm" href="https://valorinveste.globo.com/blogs/marcelo-dagosto/post/2019/07/nubank-e-fundos-tesouro-selic-podem-substituir-aplicacoes-em-grandes-bancos.ghtml"><strong>Leia a matéria</strong> <i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></a>
+                <br>
+                <img id="img-lg" src="./assets/img/valor-logo.png" alt="">
+                <h2 id="subtitulo-txt-iiiii">'Não olhamos para fintechs, mas o Nubank é uma grande marca',diz
+                        novo investidor</h2>
+                <a id="lm" class="lm" href="https://link.estadao.com.br/noticias/inovacao,nao-olhamos-para-fintechs-mas-o-nubank-e-uma-grande-marca-diz-novo-investidor,70002940796"><strong>Leia a matéria</strong> <i class="fa fa-arrow-right"
+                        aria-hidden="true"></i></a>
+                <br>
+                <img id="img-lg-u" src="./assets/img/estadao-logo.png" alt="">
+            </div>
+        </section>
+        <!--------------------------------------CAMPO8--------------------------------------->
+        <section class="transp">
+            <div class="txt-u row">
+                <h1 id="txt-u">Simplifique a sua vida. Peça seu convite.</h1>
+                <p id="sub-txt-u">Nu Pagamentos S.A. - CNPJ 00.000.000/0000-00 <br>Rua Capote Valente, 00 - 00000-000 - São Paulo, SP</p>
+            </div>
+            <img id="img-card-cell" src="./assets/img/card-cell.png" alt="">
+        </section>
+        <!-----------------------------------------RODAPÉ----------------------------------->
+        <hr>
+        <p id="txt-r">Cópia feita por <a id="l-r" href="https://www.linkedin.com/in/daniele-pinheiro/">Daniele Pinheiro</a> para fins de aprendizagem - Todos os direitos são reservado à <a id="l-r" href="https://nubank.com.br/">Nubank.</a> </p>
+
+
+
+
+        <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

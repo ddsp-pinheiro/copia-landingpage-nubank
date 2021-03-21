@@ -1,0 +1,305 @@
+/*Campo1*/
+*{
+    margin: 0; 
+    padding: 0;
+}
+.bg{
+    background-color:rgb(245, 245, 245);
+}
+.roxo{
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+    padding: 50px;
+    background-color: rgb(138, 5, 190);
+}
+#video{
+    width: 824px;
+    height: 463px;
+
+}
+#form-and-txt{
+margin-left: 15px;
+}
+.titulo-r1{
+    font-size: 35pt ;
+    width: 380px; 
+}
+form{
+    width: 326px; 
+    height: 300px;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 5%;
+    background-color: white;
+}
+#form-txt{
+    font-size: 22.5px;
+}
+label{
+    margin-top: 30px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: none;
+}
+#cpf{
+    padding-top: 15px;
+    border:0;
+}
+#continuar{
+    margin-top: 15px;
+    padding: 12.5px;
+    border-radius: 6.25rem;
+}
+.btn{
+    color: rgb(187, 187, 187);
+    background-color:rgb(230, 230, 230);
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(138, 5, 190);
+}
+/*NAVBAR*/
+.navbar{
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 2px;
+    display:flex;
+    position: absolute;
+}
+#img-nav{
+    margin-left: 20px;
+}
+#txt-nav{
+    margin-left: 20px;
+    color: rgb(138, 5, 190);
+}
+
+/*CAMPO2*/
+.cinza-branco{
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+    margin-top: 65px;
+}
+.cinza{
+    background-color: rgb(20, 20, 20);
+}
+.cell-titulo{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+#img-cell{
+    width:664px;    
+    height: 550px;
+}
+.cell-p{
+    margin-block-end: 50px;
+    margin-left: 60px;
+    font-size: 14pt;
+    width: 250px;
+}
+.branco{
+    padding: 33px;
+    background-color: white;
+}
+.card-titulo{
+    font-size: 3rem;
+    text-decoration-color: black;
+}
+#img-card{
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 60px;
+    width: 536px;
+    height: 485.078px;
+}
+.card-p{
+    margin-block-start: em;
+    font-size: 14pt;
+    margin-left: 40px;
+    width: 250px;
+    color: black;
+}
+
+/*CAMPO3*/
+.branco-ii{
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+    margin-top: 65px;
+    background-color: white;
+}
+#rapaz-com-celular{
+    width: 385.656px;
+    height: 431.312px;
+}
+.bloco-i{
+    padding: 115px;
+}
+
+.txt-i{
+    width: 400px;
+    margin-left: 150px;
+}
+#titulo-txt-i{
+    font-size: 3rem;
+    color: black;
+}
+#subtitulo-txt-i{
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: black;
+}
+#txt-alerta{
+    font-size: 1.125rem;
+    color: rgb(138, 5, 190);
+}
+/*CAMPO4*/
+.grupo-de-pessoas{
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://nubank.com.br/_next/static/images/2ac7e001ee2e06ca7c2edc51c1b173bd-complexity@1x.jpg.webp);
+}
+.txt-ii{
+    width: 664px;
+    height: 600px;
+    padding: 64px;
+    color: white;
+}
+#titulo-txt-ii{
+    margin-top: 150px;
+    font-size: 3rem;
+    
+}
+#subtitulo-txt-ii{
+    margin-top: 35px;
+    font-size: 1.5rem;
+}
+/*CAMPO5*/
+.roxo-ii{
+    justify-content: space-around;
+    align-items: center;  
+    flex-wrap: wrap;
+    display: flex;
+    padding: 60px; ;
+    background-color: rgb(83, 0, 130);
+    height: 600px;
+}
+.txt-iii{
+    width: 580px;
+    color: white;  
+}
+#titulo-txt-iii{
+    font-size: 3rem;
+}
+#subtitulo-txt-iii{
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+#img-zero{
+    width: 536px;
+    height: 237px;
+}
+/*CAMPO6*/
+.branco-iii{
+    justify-content: space-around;
+    align-items: center;  
+    flex-wrap: wrap;
+    display: flex;
+    background-color:white;
+    height: 600px;
+}
+.txt-iiii{
+    width: 630px;
+    color: black;
+
+}
+#titulo-txt-iiii{
+    font-size: 3rem;
+}
+#subtitulo-txt-iiii{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+#img-moça{
+    width: 337px;
+    height: 337px;
+}
+/*CAMPO7*/
+.branco-iiii{
+    justify-content: space-around;
+    align-items: center;  
+    flex-wrap: wrap;
+    display: flex;
+    height: 720px;
+    background-color:white;
+}
+.txt-iiiii{
+    width: 450px;
+    font-size: 3.5rem;
+    color: black;
+}
+#subtitulo-txt-iiiii{
+    margin-top: 75px;
+    margin-bottom: 15px;
+    width: 600px;
+    font-size: 1.5rem;
+    color: black;
+}
+#lm {   
+    font-size: 1.125rem;
+    color:rgb(138, 5, 190) ;
+}
+#img-lg{
+    margin-top: 15px;
+}
+#img-lg-u{
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+/*CAMPO8*/
+.transp{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top:150px ;
+    margin-bottom:150px ;
+
+}
+.txt-u{
+    margin-left: 30px;
+    width: 700px
+
+}
+#txt-u{
+    width: 475px;
+    font-size: 3rem;
+    margin-left: 30px;
+    margin-bottom:30px;
+    color: black;
+}
+#sub-txt-u{
+    margin-left: 30px;
+    font-size: 1.125rem;
+    color: rgb(109, 109, 109);
+}
+#img-card-cell{
+    margin-right: 140px;
+    width: 256px;
+    height: 336px;
+}
+/*Rodapé*/
+#txt-r{
+    text-align: center;
+}
+#l-r{
+    color: blueviolet;
+}
+
