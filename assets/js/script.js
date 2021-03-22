@@ -1,6 +1,5 @@
 let cpf = document.querySelector('#cpf')
 let alert = document.querySelector('#alert')
-let alerti = document.querySelector('#alerti')
 let cpfOk = false
 
 function validaCpf() {
